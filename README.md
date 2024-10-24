@@ -30,6 +30,5 @@ Backend of the Commerce system developed using SpringBoot (Study System) (RESTFu
 <p align="center">2º Domain Layer </p>
 
 <div align="center"> 
-    <img src="![image](https://github.com/user-attachments/assets/86510cbf-3857-4f29-91a9-4f5352579f91)
-"/> 
+    <img src="https://github.com/user-attachments/assets/86510cbf-3857-4f29-91a9-4f5352579f91"/> 
 </div>
