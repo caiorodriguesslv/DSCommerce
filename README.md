@@ -22,5 +22,5 @@ Backend of the Commerce system developed using SpringBoot (Study System) (RESTFu
 <p align="center">1º Layered Design Pattern (DTO) </p>
 
 <div align="center"> 
-    <img src=""/> 
+    <img src="https://user-images.githubusercontent.com/101218403/251632425-81872d36-798c-47af-a055-90ac847b9bda.png"/> 
 </div>
