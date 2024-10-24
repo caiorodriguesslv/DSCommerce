@@ -24,3 +24,11 @@ Backend of the Commerce system developed using SpringBoot (Study System) (RESTFu
 <div align="center"> 
     <img src="https://user-images.githubusercontent.com/101218403/251632425-81872d36-798c-47af-a055-90ac847b9bda.png"/> 
 </div>
+
+
+
+<p align="center">2º Domain Layer </p>
+
+<div align="center"> 
+    <img src="https://github.com/caiorodriguesslv/DSCommerce/issues/15#issue-2611829529"/> 
+</div>
