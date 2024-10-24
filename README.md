@@ -30,5 +30,6 @@ Backend of the Commerce system developed using SpringBoot (Study System) (RESTFu
 <p align="center">2º Domain Layer </p>
 
 <div align="center"> 
-    <img src="[https://github.com/caiorodriguesslv/DSCommerce/issues/15#issue-2611829529](https://private-user-images.githubusercontent.com/101218403/379819537-464a7595-971f-43ad-ade5-89c8259d581c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODE0MjYsIm5iZiI6MTcyOTc4MTEyNiwicGF0aCI6Ii8xMDEyMTg0MDMvMzc5ODE5NTM3LTQ2NGE3NTk1LTk3MWYtNDNhZC1hZGU1LTg5YzgyNTlkNTgxYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNDQ1MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YTM2ZGNhZDk1MWYyM2VhOTA0NzVhMTgzN2NmZjVjODg3YjE2OGFiYjQ5ODY0ZjVlNDQ4ZjdkZTQ2ZmQ5NGM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.leBBTc0ALETPxI88TsAEhWx95BUBE1ZhZokf0a4goP0)"/> 
+    <img src="![image](https://github.com/user-attachments/assets/86510cbf-3857-4f29-91a9-4f5352579f91)
+"/> 
 </div>
