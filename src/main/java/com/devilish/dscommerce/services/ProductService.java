@@ -3,6 +3,7 @@ package com.devilish.dscommerce.services;
 import com.devilish.dscommerce.dto.ProductDTO;
 import com.devilish.dscommerce.entities.Product;
 import com.devilish.dscommerce.repositories.ProductRepository;
+import com.devilish.dscommerce.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,9 +20,9 @@ public class ProductService {
 
     @Transactional(readOnly = true)
     public ProductDTO findById(Long id) {
-        Product product = repository.findById(id).get();
-        ProductDTO dto = new ProductDTO(product);
-        return dto;
+        Product product = repository.findById(id).orElseThrow(
+                () -> new ResourceNotFoundException("Recurso Não Encontrado!"));
+        return new ProductDTO(product);
     }
 
     @Transactional(readOnly = true)
