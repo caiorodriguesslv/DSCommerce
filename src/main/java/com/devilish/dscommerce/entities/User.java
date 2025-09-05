@@ -6,6 +6,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
+import java.util.HashSet;
 
 @Entity
 @Table(name = "tb_user")
@@ -23,6 +25,13 @@ public class User {
 
     @OneToMany(mappedBy = "client")
     private List<Order> orders = new ArrayList<>();
+
+    @ManyToMany
+    @JoinTable(name = "tb_user_role",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private Set<Role> roles = new HashSet<>();
+
 
     public User(){
     }
@@ -87,6 +96,27 @@ public class User {
     public List<Order> getOrders() {
         return orders;
     }
+ 
+    // Retorna os papéis de autorização do usuário
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    // Adiciona um papel de autorização ao usuário
+    public void addRoles(Role role) {
+        roles.add(role);
+    }
+
+    // Verifica se o usuário tem um determinado papel de autorização
+    public boolean hasRole(String roleName) {
+        for (Role role : roles) {
+            if (role.getAuthority().equals(roleName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
 
     @Override
     public boolean equals(Object o) {

@@ -1,6 +1,6 @@
 package com.devilish.dscommerce.controllers;
 
-import com.devilish.dscommerce.dto.CustomError;
+
 import com.devilish.dscommerce.dto.ProductDTO;
 import com.devilish.dscommerce.services.ProductService;
 import com.devilish.dscommerce.services.exceptions.ResourceNotFoundException;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.time.Instant;
+
 
 @RestController
 @RequestMapping(value = "/products")

@@ -30,7 +30,7 @@ You can access user, product and category registrations.
 * Java JDK-17
 * Docker
 * Railway
-* H2 Database (In-memory database), however the system can be integrated with PostgreSQL.
+* H2 Database (In-memory database for development and testing)
 * [Postman](https://www.postman.com/interstellar-moon-715825/workspace/dscommerce/collection/21958705-2780c03f-bd09-44e5-ae31-1cf74309bf93?action=share&creator=21958705)
   
 
